@@ -1,3 +1,5 @@
+// Hlengani Nhlangano Cherish
+// ST10526531
 package com.example.imad5112a2
 
 import android.content.Intent
