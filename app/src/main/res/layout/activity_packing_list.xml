@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:fitsSystemWindows="true"
+  android:padding="16dp"
+  android:background="#1E231F"> <Button
+    android:id="@+id/btnDisplayList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Display Gear Checklist"
+    android:textColor="#FFFFFF"
+    android:backgroundTint="#4A5D23"/>
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_marginTop="10dp"
+    android:background="#2E3B32"
+    android:padding="10dp">
+
+  <TextView
+    android:id="@+id/txtResults"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+    android:textSize="16sp" />
+
+</ScrollView>
+
+<Button
+  android:id="@+id/btnReturn"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:text="Back To Base"
+  android:textColor="#FFFFFF"
+  android:layout_marginTop="10dp"
+  android:backgroundTint="#8B5A2B"/> 
+  </LinearLayout>
